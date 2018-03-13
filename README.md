@@ -16,7 +16,7 @@ Add the **pdf417** plugin to your project:
 
 Add Android platform support to the project:
 
-    cordova platform add android
+    cordova platform add android@6
     
 ### iOS
 
@@ -48,7 +48,7 @@ cd testcordova
 cordova plugin add ../pdf417-phonegap/Pdf417
 
 # add android support to the project
-cordova platform add android@7
+cordova platform add android@6
 
 # build the project, the binary will appear in the bin/ folder
 cordova build android
